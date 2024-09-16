@@ -1,6 +1,13 @@
+/**
+ * Author:    Matéo Guenot
+ * Created:   16/09/2024
+ *
+ **/
+
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // Déclaration et assignation des variables
     char c = 'A';
     signed char sc = -50;

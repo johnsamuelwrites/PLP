@@ -1,11 +1,13 @@
 # Comparaison entre C et Python
-## 1. Bases de la programmation
-###   Affichage de données 
 
-**C** : Utilise la fonction printf() pour afficher des données, qui nécessite des spécificateurs de format pour chaque type de donnée. 
+## 1. Bases de la programmation
+
+### Affichage de données
+
+**C** : Utilise la fonction printf() pour afficher des données, qui nécessite des spécificateurs de format pour chaque type de donnée.
 
 **Python** : Utilise la fonction print() qui accepte n'importe quel type de donnée sans besoin de spécificateurs. Python gère automatiquement la conversion.
-   
+
 Exemple en C :
 
     #include <stdio.h>
@@ -14,19 +16,25 @@ Exemple en C :
       printf("Bonjour, %s! Vous avez %d ans.\n", "Alice", 30);
       return 0;
     }
+
 Exemple en Python :
 
     print("Bonjour, {}! Vous avez {} ans.".format("Alice", 30))
+
 ### Différences de syntaxe et gestion de la mémoire
+
 **C** : Langage à typage statique, nécessite la gestion manuelle de la mémoire (allocation et libération via `malloc/free`).
 
 **Python** : Langage à typage dynamique et à gestion automatique de la mémoire (garbage collection).
+
 ## 2. Manipulation des variables
-###   Déclaration des types
+
+### Déclaration des types
+
 **C** : Les types de variables doivent être explicitement déclarés avant l'utilisation (int, float, char, etc.).
 
 **Python** : Le typage est dynamique, les variables n'ont pas besoin d'être typées explicitement.
-   
+
 Exemple en C :
 
     int nombre = 10;
@@ -38,18 +46,20 @@ Exemple en Python :
     lettre = 'A'
 
 ### Annotations pour le typage statique en Python
+
 **Python 3.5+** : Utilisation des annotations pour indiquer le type (sans enforcement strict).
 
     def addition(a: int, b: int) -> int:
       return a + b
 
 ## 3. Opérateurs
-###   Arithmétiques, logiques, et bit à bit
-   
-**C** : Dispose des opérateurs classiques comme +, -, *, /, % (modulo). Pour les opérations bit à bit, on utilise &, |, ^, ~, <<, >>.
+
+### Arithmétiques, logiques, et bit à bit
+
+**C** : Dispose des opérateurs classiques comme +, -, \*, /, % (modulo). Pour les opérations bit à bit, on utilise &, |, ^, ~, <<, >>.
 
 **Python** : A les mêmes opérateurs arithmétiques et logiques. Les opérations bit à bit sont identiques à celles de C.
-   
+
 Exemple en C :
 
     int a = 5, b = 3;
@@ -62,12 +72,13 @@ Exemple en Python :
     c = a & b  # Opération AND bit à bit
 
 ## 4. Boucles et structures de contrôle
-###  Délimitation des blocs
-  
+
+### Délimitation des blocs
+
 **C** : Utilise des accolades {} pour délimiter les blocs de code.
-  
+
 **Python** : Utilise l'indentation pour délimiter les blocs.
-  
+
 Exemple en C :
 
     for (int i = 0; i < 5; i++) {
@@ -99,12 +110,13 @@ Exemple en Python :
       print("x est petit")
 
 ## 5. Conversion et formatage
-###   Conversion de données
-   
+
+### Conversion de données
+
 **C** : Utilise des fonctions comme sprintf, itoa pour convertir et formater des données.
 
 **Python** : Utilise des techniques plus modernes comme les f-strings (Python 3.6+).
-   
+
 Exemple en C (conversion binaire) :
 
     int num = 10;
@@ -116,6 +128,7 @@ Exemple en Python (conversion binaire) :
     print(f"En binaire : {bin(num)}")
 
 ### Formatage
+
 **C** : Le formatage dans printf utilise des spécificateurs comme %d, %f.
 **Python** : Utilisation des f-strings ou de .format().
 
@@ -128,4 +141,5 @@ Exemple en Python :
     print(f"Le nombre est {42} et le flottant est {3.1415:.2f}")
 
 ## Conclusion :
+
 C et Python partagent de nombreux concepts fondamentaux, mais diffèrent largement en termes de gestion de la mémoire, de typage et de syntaxe. Python tend à simplifier la gestion des types et de la mémoire, tandis que C offre plus de contrôle au programmeur mais nécessite davantage de travail manuel pour des aspects comme la gestion de la mémoire.

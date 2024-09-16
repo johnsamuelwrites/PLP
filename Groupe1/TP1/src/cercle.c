@@ -1,6 +1,13 @@
+/**
+ * Author:    Matéo Guenot
+ * Created:   16/09/2024
+ *
+ **/
+
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     const float pi = 3.14159;
     // Get the radius from the user
     printf("Entrer le rayon du cercle : ");
@@ -9,12 +16,14 @@ int main(int argc, char *argv[]) {
 
     const float air = pi * radius * radius;
 
-    if (air < 0) {
+    if (air < 0)
+    {
         printf("L'air du cercle est négatif\n");
-    } else {
+    }
+    else
+    {
         printf("L'air du cercle est : %f\n", air);
     }
 
     return 0;
 }
-

@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * Author:    Rémi Jara
+ * Created:   16/09/2024
+ *
+ **/
+
 int main()
 {
     for (int i = 1; i < 1001; i++)
