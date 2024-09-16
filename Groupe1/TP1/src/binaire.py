@@ -1,3 +1,6 @@
+# Author: Rémi Jara
+# Date: 16/09/2024
+
 if __name__ == "__main__":
     my_int = 0
 

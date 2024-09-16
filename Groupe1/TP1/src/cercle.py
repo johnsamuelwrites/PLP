@@ -1,3 +1,6 @@
+# Author: Matéo Guenot
+# Date: 16/09/2024
+
 def main():
     pi = 3.14159
     rayon = float(input("Entrez le rayon du cercle: "))

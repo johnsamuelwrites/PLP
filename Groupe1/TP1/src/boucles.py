@@ -1,3 +1,7 @@
+# Author: Matéo Guenot
+# Date: 16/09/2024
+
+
 def main():
     compteur = int(input("Entrer la largeur du triangle rectangle : "))
 

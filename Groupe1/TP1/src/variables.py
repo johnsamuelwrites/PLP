@@ -1,3 +1,6 @@
+# Author: Matéo Guenot
+# Date: 16/09/2024
+
 def main():
     # Déclaration et assignation des variables
     entier = 42                # int

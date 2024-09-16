@@ -1,3 +1,6 @@
+# Author: Rémi Jara
+# Date: 16/09/2024
+
 import sys
 
 if __name__ == '__main__':

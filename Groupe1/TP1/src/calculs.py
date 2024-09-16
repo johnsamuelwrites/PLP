@@ -1,3 +1,6 @@
+# Author: Matéo Guenot
+# Date: 16/09/2024
+
 def main():
     num1 = int(input("Entrez le numéro 1 : "))
 
