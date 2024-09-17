@@ -1,8 +1,8 @@
-import math
 import dis
 
+
 def calculer_aire(rayon: float) -> float:
-    return math.pi * rayon * rayon
+    return 15
 
 def main() -> None:
     rayon : float = 5.0
