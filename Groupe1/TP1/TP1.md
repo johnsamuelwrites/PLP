@@ -29,7 +29,7 @@ C et Python appartiennent à des paradigmes de programmation différents : C est
 
 1. **Écrire le programme en C :**
 
-   Écrivez un programme C nommé `bonjour.c`.
+   Écrivez un programme C nommé `bonjour.c` qui affiche le message "Bonjour le Monde!" à l'écran.
 
 2. **Compiler et exécuter le programme en C:**
 
@@ -79,7 +79,7 @@ C et Python appartiennent à des paradigmes de programmation différents : C est
 
 1. **Écrire le programme en Python :**
 
-   Écrivez un programme C nommé `bonjour.py`.
+   Écrivez un programme Python nommé `bonjour.py` qui affiche le message "Bonjour le Monde!" à l'écran.
 
 2. **Exécuter le programme :**
 

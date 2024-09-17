@@ -2,7 +2,7 @@
 Principes des Langages de Programmation
 
 ## Année: 2024-2025
-### Sujets de travaux pratiques (Groupe 1 - TP)
+### Sujets de travaux pratiques (Groupe 1 et 2 - TP)
 - [TP1](Groupe1/TP1/TP1.md)
 - [TP2](Groupe1/TP2/TP2.md)
 - [TP3](Groupe1/TP3/TP3.md)
@@ -10,7 +10,7 @@ Principes des Langages de Programmation
 - [TP5](Groupe1/TP5/TP5.md)
 
 
-### Sujet de projet (Groupe 2 - Projet)
+### Sujet de projet (Groupe 3 - Projet)
 - [TP1](Groupe2/TP1/TP1.md)
 - [TP2](Groupe2/TP2/TP2.md)
 - [TP3](Groupe2/TP3/TP3.md)
