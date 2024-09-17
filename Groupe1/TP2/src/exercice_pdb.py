@@ -1,3 +1,6 @@
+# Author:    Rémi Jara
+# Created:   17/09/2024
+
 from typing import List
 
 

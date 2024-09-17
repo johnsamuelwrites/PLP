@@ -1,4 +1,8 @@
+# Author:    Rémi Jara
+# Created:   17/09/2024
+
 from typing import List
+
 
 def double_values(tableau: List[int]) -> None:
     for compteur in range(len(tableau)):

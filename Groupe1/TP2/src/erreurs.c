@@ -1,3 +1,9 @@
+/**
+ * Author:    Rémi Jara
+ * Created:   17/09/2024
+ *
+ **/
+
 #include <stdio.h>
 
 int main()

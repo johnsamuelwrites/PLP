@@ -1,3 +1,6 @@
+# Author:    Rémi Jara
+# Created:   17/09/2024
+
 class Color:
     def __init__(self, r, g, b, a):
         self.r = r
