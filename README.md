@@ -21,6 +21,8 @@ Principes des Langages de Programmation
 * John Samuel
 
 ## Archives and Releases
+* [Zenodo](https://doi.org/10.5281/zenodo.15674125)
+* [Software Heritage](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/johnsamuelwrites/PLP)
 * [Release Notes](RELEASE.md)
 
 ## Licence
